@@ -51,7 +51,26 @@
         width: 40px;
         background-color: #fff;
         border-radius: 50%;
-
+    }
+    #top_menu {
+        background-color: #2a2e48;
+        padding: 20px 0;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu li a {
+        display: block;
+    }
+    .munu li a:hover {
+        background-color: aliceblue;
+        color: aliceblue;
+    }
+    .title_block {
+        margin-top: 130px;
+    }
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -60,19 +79,37 @@
         height: 60px;
         line-height: 60px;
         background-color: #2a2e48;
+        position: fixed;
     }
     .top_line {
         display: none;
     }
     .logo {
         padding-top:15px;
-    }
-    
+    }  
     .menu_btn {
         height: 40px;
         width: 40px;
         background-color: #fff;
         border-radius: 50%;
+    }
+    #top_menu {
+        background-color: #2a2e48;
+        padding: 20px 0;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu li a {
+        display: block;
+    }
+    .munu li a:hover {
+        background-color: aliceblue;
+        color: aliceblue;
+    }
+    .title_block {
+        margin-top: 130px;
     }
 }
 
@@ -89,12 +126,25 @@
     .logo {
         padding-top:15px;
     }
-    
     .menu_btn {
         height:40px;
         width: 40px;
         background-color: #fff;
         border-radius: 50%;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu li a {
+        display: block;
+    }
+    .munu li a:hover {
+        background-color: aliceblue;
+        color: aliceblue;
+    }
+    .title_block {
+        margin-top: 130px;
     }
 }
 
