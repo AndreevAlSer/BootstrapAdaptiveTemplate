@@ -4,6 +4,18 @@ body{
 	min-width: 320px;
 }
 
+/* buttons */
+
+.my_btn {
+    background-color: #e84545;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-md {
+    padding: 10px 30px;
+}
+
 /*heder*/
 header{
     height: 680px;
