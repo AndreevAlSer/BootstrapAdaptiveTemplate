@@ -87,3 +87,24 @@ nav {
     margin-bottom: 50px;
 }
 
+/*section with icons*/
+.params_s {
+    padding: 95px 0;
+}
+.param_block{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.param_block i {
+    font-size: 70px;
+    color: #e84545;
+}
+.param_block h3 {
+    text-transform: uppercase;
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 18px;
+}
+
+.param_block p {
+    font-size: 14px;
+}
