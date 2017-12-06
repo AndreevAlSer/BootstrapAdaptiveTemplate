@@ -140,3 +140,31 @@ nav {
     text-align: center;
     margin: auto;
 }
+
+/*Team section*/
+.team_s {
+    padding: 95px 0;
+    color:#6c7279;
+}
+.team_item h4 {
+    font-family: 'RalewayBold', sans-serif;
+    font-size: 16px;
+    color:black;
+}
+.team_item span{
+   text-transform: uppercase;
+   color: #e84545;
+   font-size: 14px;
+}
+
+.team_item p {
+    padding: 10px 0;
+    font-size: 14px;
+}
+.soc_btn {
+    border: 1px solid #c6cacc;
+    color:#c6cacc;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
