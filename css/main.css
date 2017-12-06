@@ -4,6 +4,10 @@ body{
 	min-width: 320px;
 }
 
+.p0 {
+    padding: 0;
+}
+
 /* buttons */
 
 .my_btn {
@@ -107,4 +111,32 @@ nav {
 
 .param_block p {
     font-size: 14px;
+}
+
+/*Works section*/
+.work_block {
+    position: relative;
+}
+.image-wrap {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 69, 69, .7);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    opacity: 0;
+}
+.work_block:hover .image-wrap {
+    opacity: 1;
+    cursor: pointer;
+}
+.work_descr {
+    color:#fff;
+    text-align: center;
+    margin: auto;
 }
