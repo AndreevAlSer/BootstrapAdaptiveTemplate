@@ -299,7 +299,7 @@
                     <div class="download_block">
                         <h5>Are You Ready to Start? Download Now For Free!</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur </p>
-                        <button class="my_btn btn_lg">Download Now</button>
+                        <button class="my_btn btn_lg" data-toggle="modal" data-target="#dlModal">Download Now</button>
                     </div>
                 </div>
             </div>
@@ -350,7 +350,31 @@
                 </div>
             </div>
         </div>
+        <button class="call_btn" data-toggle="modal" data-target="#dlModal">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </button>
     </footer>
+    
+    <div class="modal fade" id="dlModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Download</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#" id="dlform">
+                <input type="text" class="form-control" placeholder="Your name">
+                <input type="email" class="form-control" placeholder="Email">
+                <input type="password" class="form-control" placeholder="Password">
+                <input type="submit" value="Send" class="my_btn btn_md btn-block">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
 	<script src="libs/jquery/jquery-2.1.4.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
