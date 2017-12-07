@@ -134,6 +134,9 @@
     .team_item {
         margin-bottom: 30px;
     }
+    .btn_lg {
+        padding: 10px 20px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -183,6 +186,9 @@
     }
     .team_item {
         margin-bottom: 30px;
+    }
+    .btn_lg {
+        padding: 10px 20px;
     }
 }
 

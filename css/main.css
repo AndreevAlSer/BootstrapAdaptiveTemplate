@@ -14,10 +14,31 @@ body{
     background-color: #e84545;
     border: none;
     text-transform: uppercase;
+    color:#fff;
 }
 
-.btn-md {
+.btn_md {
     padding: 10px 30px;
+}
+
+.btn_lg {
+    padding: 15px 50px;
+}
+
+.soc_btn_grey {
+    border: 1px solid #c6cacc;
+    color:lightgrey;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.soc_btn_white {
+    border: 1px solid #fff;
+    background-color: #3a3e64;
+    color:#fff;
+    width: 30px;
+    height: 30px;
 }
 
 /*heder*/
@@ -143,7 +164,7 @@ nav {
 
 /*Team section*/
 .team_s {
-    padding: 95px 0;
+    padding: 95px 0 0 0;
     color:#6c7279;
 }
 .team_item h4 {
@@ -161,10 +182,46 @@ nav {
     padding: 10px 0;
     font-size: 14px;
 }
-.soc_btn {
-    border: 1px solid #c6cacc;
-    color:#c6cacc;
-    background-color: transparent;
-    width: 30px;
-    height: 30px;
+
+/*Download section*/
+.download_block {
+    text-align: center;
+}
+.download_block h5 {
+    font-size: 24px;
+}
+.download_block p {
+    text-transform: uppercase;
+    font-family: 'RalewayBold', sans-serif;
+}
+.download {
+    padding: 90px;
+}
+
+/*Footer*/
+.main_footer {
+    padding: 70px 0;
+    background-color: #3a3e64;
+}
+.footer_item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_item h5 {
+    font-size: 16px;
+    font-family: 'RalewayBold', sans-serif;
+    color:#fff;
+    text-transform: uppercase;
+}
+.footer_item p {
+    font-size: 14px;
+    color:#9b9fb2;
+}
+.copy_txt {
+    color:#9b9fb2;
+    text-align: center;
+    padding: 30px 0;
+}
+.copyright_block {
+    background-color: #313454;
 }
